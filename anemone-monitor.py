@@ -1,3 +1,5 @@
+#!/bin/python3
+
 import subprocess
 import discord
 from discord.ext import commands
@@ -19,4 +21,4 @@ async def status(ctx,arg: str):
 async def uptime(ctx):
     await ctx.send(subprocess.check_output("uptime",universal_newlines=True))
 
-ane.run()
+ane.run('')
